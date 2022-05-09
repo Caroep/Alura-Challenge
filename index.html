@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">-->
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge Alura</title>
+</head>
+<body>
+    <div class="logo">
+        <img src="imagenes/descarga.jpg" alt="">
+        <br>
+    </div>
+
+   <div class="container">
+        <div class="texto-izquierda">
+            <input id="mje"  class="input-text"  type="text" placeholder="Ingrese el texto aquí">
+        </div>
+
+        <div class="texto-derecha">
+         <img  id="imagen1" src="imagenes/Muñeco.png" class="imagen">
+         <h2 id="texto1" class="text1">Ningún mje fue encontrado </h2>
+         <textarea id="texto2"   class="text2"  name="" id="" cols="30" rows="10">Ingresa el texto que desees encriptar o desencriptar.</textarea>
+         <button id="btn-copiar" class="boton-copiar" onclick="copiar()">copiar</button>
+        </div>
+    </div>
+       <div class="botones">
+           <p> <img src="imagenes/Vector (2).png" alt="">
+               Solo letras minúsculas y sin acentos</p>
+           <button id="btn-encriptar" class="boton-encriptar" onclick="encriptado()">Encriptar</button>
+           <button id="btn-desencriptar" class="boton-desencriptar" onclick="desencriptado()">Desencriptar</button>   
+       </div>
+       <div class="desarrollado"> <!--Proyecto de Palomo Carolina--></div>
+     <script src="javascript/encriptar.js" ></script>
+       </body>
+</html>

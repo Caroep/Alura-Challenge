@@ -1,0 +1,136 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #E5E5E5;
+    
+}
+
+.container {
+    margin: auto;
+    height: 650px;
+    width: 960px;
+    border-radius: 0px;
+    padding: 5px;
+    background: #E5E5E5;
+    
+}
+
+.logo{
+    margin-top: 30px;
+    margin-left: 30px;
+    left: 20px;
+    top: 0px;
+    border-radius: 40px;
+    background: #E5E5E5;
+}
+
+.texto-izquierda{
+    text-align: left;
+    float: left;
+    height: auto;
+    width: 70%;
+    border-radius: 0px;
+    background: #E5E5E5;
+}
+.input-text{
+    margin-top: 40px;
+    height: 48px;
+    width: 577px;
+    left: 240px;
+    top: 168px;
+    border-radius: nullpx;
+    color: #0A3871;
+    border: none;
+    outline: none;
+    background: #E5E5E5;
+    
+font-size: 32px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.texto-derecha{
+    float: right;
+    height: auto;
+    width:  35% ;
+    border-radius: 32px;
+    background-color: white;
+}
+
+.imagen{
+    margin-top: 65%;
+    margin-left: 10px;
+    width: 90%;
+    height: auto;
+}
+.text1  {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.text2  {
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-bottom:70px;
+    border: none;
+    outline: none;
+    color: Gray/gray-4007;
+    
+}
+
+.botones{
+    margin-left: 100px;
+    display: inline-block;
+    
+}
+
+.boton-encriptar, .boton-desencriptar {
+    float: left ;
+    height: auto;
+    width: 328px;
+    left: 5px;
+    top: 5px;
+    border-radius: 24px;
+    padding: 24px;
+    margin-right: 20px;
+ }
+
+ .boton-encriptar{
+     background:#0c72f0;
+     
+ }
+
+ .boton-desencriptar{
+     background:#0e5ab8;
+     
+ }
+ .desarrollado {
+     display: inline-block;
+     margin-left: 550px;
+     
+ }
+ 
+ #btn-copiar{
+     margin-left:5% ;
+     width: 250px;
+     height: 67px;
+     border-radius: 24px;
+    padding: 24px;
+    display: none;
+    background: #4c94ec;
+ }
+
+
+
+
+
+
